@@ -54,7 +54,7 @@ pub const Tessellator = struct {
 
             if (face_points.items.len < 3) continue;
 
-            const base_vertex_idx = @as(u32, @intCast(mesh.vertices.items.len) / 3);
+            const base_vertex_idx = @as(u32, @intCast(mesh.vertices.items.len / 3));
 
             for (face_points.items) |pt| {
                 try mesh.vertices.append(@floatCast(pt.x));

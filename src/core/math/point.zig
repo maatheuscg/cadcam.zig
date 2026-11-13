@@ -1,4 +1,9 @@
-// src/core/math/point
+// src/core/math/point.zig
+// standard imports
+
+// external imports
+
+// project imports
 const Vec3d = @import("vec3d.zig").Vec3d;
 
 pub const Point = struct {

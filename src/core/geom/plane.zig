@@ -1,5 +1,9 @@
 // src/core/geom/plane.zig
+// standard imports
 
+// external imports
+
+// project imports
 const Point = @import("../math/point.zig").Point;
 const Vec3d = @import("../math/vec3d.zig").Vec3d;
 

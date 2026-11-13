@@ -1,4 +1,9 @@
-// src/core/geom/segment
+// src/core/geom/segment.zig
+// standard imports
+
+// external imports
+
+// project imports
 const Point = @import("../math/point.zig").Point;
 const Vec3d = @import("../math/vec3d.zig").Vec3d;
 

@@ -1,5 +1,9 @@
-// src/core/math/vec3d
+// src/core/math/vec3d.zig
+// standard imports
 
+// external imports
+
+// project imports
 pub const Vec3d = struct {
     x: f64,
     y: f64,
